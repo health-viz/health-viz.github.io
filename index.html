@@ -20,6 +20,53 @@
     rel="stylesheet"
   />
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+html {
+  height: 100%;
+}
+    body{
+       background-color:#668e9b;
+       margin-top:0px;
+       margin-left:0px;
+       height: 95%;
+    }
+
+    .main {
+      height: 90%;
+    }
+
+.dashcontainer{
+  height: 100%;
+}
+
+.iframe-container{
+    width: 100%;
+    height: 100%;
+}
+  footer {
+    margin-top: -50px;
+    background-color:#0f6073;
+    position: relative ;
+    bottom: 0;
+  }
+
+     .text-gray-700.body-font.sticky.bg-black.top-0.z-10{
+         background: #153a45;
+     }
+
+    .text-black.px-2.py-1.tracking-widest.text-2xl.leading-tight.font-extrabold.font-bree.text-center.w-full.h-full.flex.justify-center.items-center.absolute.top-0.left-0{
+      color: #153a45;
+    }
+
+    .iframe-container{
+       min-height: 100px;
+       background:#fff url("http://www.ajaxload.info/images/exemples/25.gif") no-repeat 50% top !important;
+    }
+
     @font-face {
       font-family: "Bree Serif";
       src: url("./BreeSerif-Regular.ttf") format("truetype");
@@ -38,6 +85,7 @@
       color: white;
     }
 
+
   </style>
 
 
@@ -49,36 +97,6 @@
 </head>
 <body><header class="text-gray-700 body-font sticky bg-black top-0 z-10">
 
-<style>
-
-  * {
-    margin: 0;
-    padding: 0;
-  }
-
-  body{
-     background-color:#668e9b;
-     margin-top:0px;
-     margin-left:0px;
-     height: 100%
-  }
-
-
-footer {
-  position: relative;
-  background-color:#0f6073;
-}
-
-   .text-gray-700.body-font.sticky.bg-black.top-0.z-10{
-       background: #153a45;
-   }
-
-  .text-black.px-2.py-1.tracking-widest.text-2xl.leading-tight.font-extrabold.font-bree.text-center.w-full.h-full.flex.justify-center.items-center.absolute.top-0.left-0{
-    color: #153a45;
-  }
-
-
-</style>
 
   <div
     class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
@@ -121,7 +139,7 @@ footer {
     </nav>
   </div>
 </header>
-<div id="content">
+<section class="main">
 
 <section class="text-gray-700 body-font">
 
@@ -209,7 +227,7 @@ footer {
 </section>
 
 
-        </div><footer class="site-footer text-gray-700 body-font">
+        </section><footer class="site-footer text-gray-700 body-font">
   <div
     class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
   >
