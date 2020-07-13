@@ -3,28 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/www.health-viz.com/dashboards/</loc>
+    <loc>/dashboards/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/www.health-viz.com/graficos/excess_deaths/</loc>
+    <loc>/graficos/excess_deaths/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/www.health-viz.com/graficos/</loc>
+    <loc>/graficos/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/www.health-viz.com/dashboards/covid19/</loc>
+    <loc>/dashboards/covid19/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/www.health-viz.com/</loc>
+    <loc>/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/graficos/water_bodies/</loc>
+    <lastmod>2019-01-17T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>
