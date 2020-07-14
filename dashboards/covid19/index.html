@@ -33,6 +33,7 @@ html {
        margin-top:0px;
        margin-left:0px;
        height: 100%;
+       position: relative;
     }
 
     .main {
@@ -40,18 +41,21 @@ html {
     }
 
 .dashcontainer{
-  height: 100%;
+    height: 100%;
 }
 
 .iframe-container{
     width: 100%;
     height: 100%;
+    background:#fff url("http://www.ajaxload.info/images/exemples/25.gif") no-repeat 50% top !important;
+    padding-bottom: 100px
+
 }
   footer {
     background-color:#0f6073;
-    position: relative ;
-    bottom: 0;
     width: 100%;
+    position: fixed ;
+    bottom: 0;
   }
 
      .text-gray-700.body-font.sticky.bg-black.top-0.z-10{
@@ -62,10 +66,6 @@ html {
       color: #153a45;
     }
 
-    .iframe-container{
-       min-height: 100px;
-       background:#fff url("http://www.ajaxload.info/images/exemples/25.gif") no-repeat 50% top !important;
-    }
 
     @font-face {
       font-family: "Bree Serif";
@@ -164,7 +164,7 @@ html {
 
 
 
-        </section><footer class="site-footer text-gray-700 body-font">
+        </section><footer class="text-gray-700 body-font">
   <div
     class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
   >
